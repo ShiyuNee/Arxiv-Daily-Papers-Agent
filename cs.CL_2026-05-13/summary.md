@@ -11,7 +11,6 @@
 
 | Topic | 论文数 | 核心关键词 |
 |-------|--------|-----------|
-
 | 对齐与安全 | 11/12 | hallucination, bias, watermark, unlearning, calibration |
 | 大模型评测 | 10/11 | LLM-as-Judge, difficulty estimation, safety-oriented, automated |
 | 模型效率与压缩 | 9/10 | segmented execution, MegaKernel, KV-cache, distillation |

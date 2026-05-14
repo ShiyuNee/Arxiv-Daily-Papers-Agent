@@ -375,15 +375,39 @@ JSON 中每篇论文包含字段：`title`, `authors`, `abstract`, `subjects`, `
 - 不要命名为 `{category}-papers-{date}.md`，必须统一为 `summary.md`
 - 不要保存到项目目录之外的其他位置
 
+**头部纵览信息（必须包含）：**
+1. **标题**：`# {category} 论文整理 - {date}`（如 `# cs.CL 论文整理 - 2026-05-14`）
+2. **元信息**：整理时间、论文总数、排除数（区分多语言/医学）、Topic 数量
+3. **总览表格**：按论文数降序排列所有 Topic，每行包含 Topic 名称、论文数、核心关键词（2-5 个英文关键词，逗号分隔）
+4. **总览表格格式要求**：表头行和数据行之间**不能有空行**，否则 Markdown 表格无法正确渲染
+
+**总览表格示例（正确 ✅）：**
+```markdown
+| Topic | 论文数 | 核心关键词 |
+|-------|--------|-----------|
+| Agent 架构与设计 | 12 | multi-agent, tool-use, planning |
+| Agentic RL | 8 | online learning, reward design |
+| LLM 推理能力 | 15 | chain-of-thought, math, proof |
+```
+
+**总览表格示例（错误 ❌ — 表头后有空行，渲染会断裂）：**
+```markdown
+| Topic | 论文数 | 核心关键词 |
+|-------|--------|-----------|
+
+| Agent 架构与设计 | 12 | multi-agent, tool-use, planning |
+| Agentic RL | 8 | online learning, reward design |
+```
+
 **文件结构（从上到下）：**
 
 ```markdown
-# cs.CL 论文整理 - 2026-05-11
+# {category} 论文整理 - {date}
 
-**整理时间**: 2026-05-12 08:00:00
-**论文总数**: 87
-**排除**: 5（多语言/医学临床）
-**Topic 数量**: 8
+**整理时间**: {实际整理时间}
+**论文总数**: {总数}
+**排除**: {排除数}（多语言/特定语言 {n1} 篇，医学/临床 {n2} 篇）
+**Topic 数量**: {topic数}
 
 ---
 
@@ -393,9 +417,11 @@ JSON 中每篇论文包含字段：`title`, `authors`, `abstract`, `subjects`, `
 |-------|--------|-----------|
 | Agent 架构与设计 | 12 | multi-agent, tool-use, planning |
 | Agentic RL | 8 | online learning, reward design |
-| ... | ... | ... |
+| LLM 推理能力 | 15 | chain-of-thought, math, proof |
 
 ---
+
+## 🤖 Agent 架构与设计（agent-design）— 12 篇
 
 ## 🤖 Agent 架构与设计（agent-design）— 12 篇
 
@@ -539,6 +565,9 @@ JSON 中每篇论文包含字段：`title`, `authors`, `abstract`, `subjects`, `
 **格式相关：**
 - ❌ **翻译作者名**——作者名保持英文
 - ❌ **排除论文忘记写排除原因**
+- ❌ **总览表格表头后有空行**——表头行和数据行之间不能有空行，否则 Markdown 表格无法渲染
+- ❌ **文件名不用 summary.md**——必须统一为 `summary.md`
+- ❌ **保存路径不在 {category}_{date}/ 目录下**——所有文件必须保存在对应的日期目录中
 
 ## 经验教训
 
