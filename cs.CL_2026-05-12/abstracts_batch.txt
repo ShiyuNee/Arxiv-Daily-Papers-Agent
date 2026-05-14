@@ -1,0 +1,810 @@
+===PAPER_0===
+ELF: Embedded Language Flows
+Diffusion and flow-based models have become the de facto approaches for generating continuous data, e.g., in domains such as images and videos. Their success has attracted growing interest in applying them to language modeling. Unlike their image-domain counterparts, today's leading diffusion langua
+===PAPER_1===
+WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation
+Large language and vision-language models increasingly power agents that act on a user's behalf through command-line interface (CLI) harnesses. However, most agent benchmarks still rely on synthetic sandboxes, short-horizon tasks, mock-service APIs, and final-answer checks, leaving open whether agen
+===PAPER_2===
+RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards
+Training deep research agents, namely systems that plan, search, evaluate evidence, and synthesize long-form reports, pushes reinforcement learning beyond the regime of verifiable rewards. Their outputs lack ground-truth answers, their trajectories span many tool-augmented decisions, and standard po
+===PAPER_3===
+Grounded or Guessing? LVLM Confidence Estimation via Blind-Image Contrastive Ranking
+Large vision-language models suffer from visual ungroundedness: they can produce a fluent, confident, and even correct response driven entirely by language priors, with the image contributing nothing to the prediction. Existing confidence estimation methods cannot detect this, as they observe model 
+===PAPER_4===
+Neural at ArchEHR-QA 2026: One Method Fits All: Unified Prompt Optimization for Clinical QA over EHRs
+Automated question answering (QA) over electronic health records (EHRs) demands precise evidence retrieval, faithful answer generation, and explicit grounding of answers in clinical notes. In this work, we present Neural1.5, our method for the ArchEHR-QA 2026 shared task at CL4Health@LREC 2026, whic
+===PAPER_5===
+DGPO: Beyond Pairwise Preferences with Directional Consistent Groupwise Optimization
+Although Large Language Models (LLMs) have made remarkable progress, current preference optimization methods still struggle to align directional consistency while preserving reasoning diversity. To address this limitation, we propose Directional-Groupwise Preference Optimization (DGPO), a lightweigh
+===PAPER_6===
+RUBEN: Rule-Based Explanations for Retrieval-Augmented LLM Systems
+This paper demonstrates RUBEN, an interactive tool for discovering minimal rules to explain the outputs of retrieval-augmented large language models (LLMs) in data-driven applications. We leverage novel pruning strategies to efficiently identify a minimal set of rules that subsume all others. We fur
+===PAPER_7===
+Learning More from Less: Exploiting Counterfactuals for Data-Efficient Chart Understanding
+Vision-Language Models (VLMs) have demonstrated remarkable progress in chart understanding, largely driven by supervised fine-tuning (SFT) on increasingly large synthetic datasets. However, scaling SFT data alone is inefficient and overlooks a key property of charts: charts are programmatically gene
+===PAPER_8===
+Grounded Satirical Generation with RAG
+Humor generation remains challenging task for Large Language Models (LLMs), due to their subjective nature. We focus on satire, a form of humor strongly shaped by context. In this work, we present a novel pipeline for grounded satire generation that uses Retrieval-Augmented Generation (RAG) over cur
+===PAPER_9===
+Training-Free Cultural Alignment of Large Language Models via Persona Disagreement
+Large language models increasingly mediate decisions that turn on moral judgement, yet a growing body of evidence shows that their implicit preferences are not culturally neutral. Existing cultural alignment methods either require per-country preference data and fine-tuning budgets or assume white-b
+===PAPER_10===
+Towards On-Policy Data Evolution for Visual-Native Multimodal Deep Search Agents
+Multimodal deep search requires an agent to solve open-world problems by chaining search, tool use, and visual reasoning over evolving textual and visual context. Two bottlenecks limit current systems. First, existing tool-use harnesses treat images returned by search, browsing, or transformation as
+===PAPER_11===
+Why Low-Resource NLP Needs More Than Cross-Lingual Transfer: Lessons Learned from Luxembourgish
+Cross-lingual transfer has become a central paradigm for extending natural language processing (NLP) technologies to low-resource languages. By leveraging supervision from high-resource languages, multilingual language models can achieve strong task performance with little or no labeled target-langu
+===PAPER_12===
+Prompt-Activation Duality: Improving Activation Steering via Attention-Level Interventions
+Activation steering controls language model behavior by adding directions to internal representations at inference time, but standard residual-stream steering can fail in stateful dialogue. We identify KV-cache contamination as a key failure mode: steered token states are stored and repeatedly reuse
+===PAPER_13===
+When Can Digital Personas Reliably Approximate Human Survey Findings?
+Digital personas powered by Large Language Models (LLMs) are increasingly proposed as substitutes for human survey respondents, yet it remains unclear when they can reliably approximate human survey findings. We answer this question using the LISS panel, constructing personas from respondents' backg
+===PAPER_14===
+A Single-Layer Model Can Do Language Modeling
+Modern language models scale depth by stacking layers, each holding its own state - a per-layer KV cache in transformers, a per-layer matrix in Mamba, Gated DeltaNet (GDN), RWKV, and xLSTM. Biological systems lean heavily on recurrence rather than on stacking. We ask how far that shape can go on lan
+===PAPER_15===
+Towards Understanding Continual Factual Knowledge Acquisition of Language Models: From Theory to Algorithm
+Continual Pre-Training (CPT) is essential for enabling Language Models (LMs) to integrate new knowledge without erasing old. While classical CPT techniques like data replay have become the standard paradigm, the mechanisms underlying how LMs acquire and retain facts over time, termed as continual Fa
+===PAPER_16===
+Intrinsic Guardrails: How Semantic Geometry of Personality Interacts with Emergent Misalignment in LLMs
+Fine-tuning Large Language Models (LLMs) on benign narrow data can sometimes induce broad harmful behaviors, a vulnerability termed emergent misalignment (EM). While prior work links these failures to specific directions in the activation space, their relationship to the model's broader persona rema
+===PAPER_17===
+Interpretable Coreference Resolution Evaluation Using Explicit Semantics
+Coreference resolution is typically evaluated using aggregate statistical metrics such as CoNLL-F1, which measure structural overlap between predicted and gold clusters. While widely used, these metrics offer limited diagnostic insights, penalizing errors without revealing whether a system struggles
+===PAPER_18===
+Responsible Benchmarking of Fairness for Automatic Speech Recognition
+Many studies have shown automatic speech processing (ASR) systems have unequal performance across speakergroups (SG's). However, the manner in which such studies arrive at this conclusion is inconsistent. To pave the wayfor more reliable results in future studies, we lay out best practices for bench
+===PAPER_19===
+Measuring Embedding Sensitivity to Authorial Style in French: Comparing Literary Texts with Language Model Rewritings
+Large language models (LLMs) can convincingly imitate human writing styles, yet it remains unclear how much stylistic information is encoded in embeddings from any language model and retained after LLM rewriting. We investigate these questions in French, using a controlled literary dataset to quanti
+===PAPER_20===
+Where do aspectual variants of light verb constructions belong?
+Expressions with an aspectual variant of a light verb, e.g. 'take on debt' vs. 'have debt', are frequent in texts but often difficult to classify between verbal idioms, light verb constructions or compositional phrases. We investigate the properties of such expressions with a disputed membership and
+===PAPER_21===
+VISTA: A Generative Egocentric Video Framework for Daily Assistance
+Training AI agents to proactively assist humans in daily activities, from routine household tasks to urgent safety situations, requires large-scale visual data. However, capturing such scenarios in the real world is often difficult, costly, or unsafe, and physics-based simulators lack the visual fid
+===PAPER_22===
+ThreatCore: A Benchmark for Explicit and Implicit Threat Detection
+Threat detection in Natural Language Processing lacks consistent definitions and standardized benchmarks, and is often conflated with broader phenomena such as toxicity, hate speech, or offensive language. In this work, we introduce ThreatCore, a public available benchmark dataset for fine-grained t
+===PAPER_23===
+ICT-NLP at SemEval-2026 Task 3: Less Is More -- Multilingual Encoder with Joint Training and Adaptive Ensemble for Dimensional Aspect Sentiment Regression
+This paper describes our system to SemEval-2026 Task 3 Track A Subtask 1 on Dimensional Aspect Sentiment Regression (DimASR). We propose a lightweight and resource-efficient system built entirely on multilingual pre-trained encoders, without relying on LLMs or external corpora. We adopt joint multil
+===PAPER_24===
+Multi-domain Multi-modal Document Classification Benchmark with a Multi-level Taxonomy
+Document classification forms the backbone of modern enterprise content management, yet existing benchmarks remain trapped in oversimplified paradigms -- single domain settings with flat label structures -- that bear little resemblance to the hierarchical, multi-modal, and cross-domain nature of rea
+===PAPER_25===
+Where Does Long-Context Supervision Actually Go? Effective-Context Exposure Balancing
+Long-context adaptation is often viewed as window scaling, but this misses a token-level supervision mismatch: in packed training with document masking, each target token's effective context remains short. We introduce EXACT, a supervision-allocation objective that assigns extra weight to long effec
+===PAPER_26===
+Mela: Test-Time Memory Consolidation based on Transformation Hypothesis
+Memory consolidation, the process by which transient experiences are transformed into stable, structured representations, is a foundational organizing principle in the human brain, yet it remains largely unexplored as a design principle for modern sequence models. In this work, we leverage establish
+===PAPER_27===
+Infinite Mask Diffusion for Few-Step Distillation
+Masked Diffusion Models (MDMs) have emerged as a promising alternative to autoregressive models in language modeling, offering the advantages of parallel decoding and bidirectional context processing within a simple yet effective framework. Specifically, their explicit distinction between masked tok
+===PAPER_28===
+Learning Less Is More: Premature Upper-Layer Attention Specialization Hurts Language Model Pretraining
+A causal-decoder block is hierarchical: lower layers build the residual basis that upper layers attend over. We identify a failure mode in GPT pretraining: upper layers commit to sharp attention patterns before lower-layer features stabilize. We call this premature upper-layer attention specializati
+===PAPER_29===
+DeepRefine: Agent-Compiled Knowledge Refinement via Reinforcement Learning
+Agent-compiled knowledge bases provide persistent external knowledge for large language model (LLM) agents in open-ended, knowledge-intensive downstream tasks. Yet their quality is systematically limited by \emph{incompleteness}, \emph{incorrectness}, and \emph{redundancy}, manifested as missing evi
+===PAPER_30===
+Coherency through formalisations of Structured Natural Language, A case study on FRETish
+Formalisation is the process of writing system requirements in a formal language. These requirements mostly originate in Natural Language. In the field of Formal Methods, formalisation is often identified as one of the most delicate and complicated steps in the verification process. Not seldomly, fo
+===PAPER_31===
+Can Language Models Analyze Data? Evaluating Large Language Models for Question Answering over Datasets
+This paper investigates the effectiveness of large language models (LLMs) in answering questions over datasets. We examine their performance in two scenarios: (a) directly answering questions given a dataset file as input, and (b) generating SQL queries to answer questions given the schema of a rela
+===PAPER_32===
+Aligning LLM Uncertainty with Human Disagreement in Subjectivity Analysis
+Large language models for subjectivity analysis are typically trained with aggregated labels, which compress variations in human judgment into a single supervision signal. This paradigm overlooks the intrinsic uncertainty of low-agreement samples and often induces overconfident predictions, undermin
+===PAPER_33===
+Phoenix-VL 1.5 Medium Technical Report
+We introduce Phoenix-VL 1.5 Medium, a 123B-parameter natively multimodal and multilingual foundation model, adapted to regional languages and the Singapore context. Developed as a sovereign AI asset, it demonstrates that deep domain adaptation can be achieved with minimal degradation to broad-spectr
+===PAPER_34===
+Not All Proofs Are Equal: Evaluating LLM Proof Quality Beyond Correctness
+Large language models (LLMs) have become capable mathematical problem-solvers, often producing correct proofs for challenging problems. However, correctness alone is not sufficient: mathematical proofs should also be clear, concise, insightful, and transferable to other problems. While this proof qu
+===PAPER_35===
+An Annotation Scheme and Classifier for Personal Facts in Dialogue
+The advancement of Large Language Models (LLMs) has enabled their application in personalized dialogue systems. We present an extended annotation scheme for personal fact classification that addresses limitations in existing approaches, particularly PeaCoK. Our scheme introduces new categories (Demo
+===PAPER_36===
+ANCHOR: Abductive Network Construction with Hierarchical Orchestration for Reliable Probability Inference in Large Language Models
+A central challenge in large-scale decision-making under incomplete information is estimating reliable probabilities. Recent approaches leverage Large Language Models (LLMs) to generate explanatory factors and elicit coarse-grained probability estimates. Typically, an LLM performs forward abduction 
+===PAPER_37===
+Extending Confidence-Based Text2Cypher with Grammar and Schema Aware Filtering
+Large language models (LLMs) allow users to query databases using natural language by translating questions into executable queries. Despite strong progress on tasks such as Text2SQL, Text2SPARQL, and Text2Cypher, most existing methods focus on better prompting, fine-tuning, or iterative refinement.
+===PAPER_38===
+Qwen Goes Brrr: Off-the-Shelf RAG for Ukrainian Multi-Domain Document Understanding
+We participated in the Fifth UNLP shared task on multi-domain document understanding, where systems must answer Ukrainian multiple-choice questions from PDF collections and localize the supporting document and page. We propose a retrieval-augmented pipeline built around three ideas: contextual chunk
+===PAPER_39===
+DECO-MWE: building a linguistic resource of Korean multiword expressions for feature-based sentiment analysis
+This paper aims to construct a linguistic resource of Korean Multiword Expressions for Feature-Based Sentiment Analysis (FBSA): DECO-MWE. Dealing with multiword expressions (MWEs) has been a critical issue in FBSA since many constructs reveal lexical idiosyncrasy. To construct linguistic resources o
+===PAPER_40===
+MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading
+To tackle long-context reasoning tasks without the quadratic complexity of standard attention mechanisms, approaches based on agent memory have emerged, which typically maintain a dynamically updated memory when linearly processing document chunks. To mitigate the potential loss of latent evidence i
+===PAPER_41===
+Building Korean linguistic resource for NLU data generation of banking app CS dialog system
+Natural language understanding (NLU) is integral to task-oriented dialog systems, but demands a considerable amount of annotated training data to increase the coverage of diverse utterances. In this study, we report the construction of a linguistic resource named FIAD (Financial Annotated Dataset) a
+===PAPER_42===
+Route Before Retrieve: Activating Latent Routing Abilities of LLMs for RAG vs. Long-Context Selection
+Recent advances in large language models (LLMs) have expanded the context window to beyond 128K tokens, enabling long-document understanding and multi-source reasoning. A key challenge, however, lies in choosing between retrieval-augmented generation (RAG) and long-context (LC) strategies: RAG is ef
+===PAPER_43===
+Relative Score Policy Optimization for Diffusion Language Models
+Diffusion large language models (dLLMs) offer a promising route to parallel and efficient text generation, but improving their reasoning ability requires effective post-training. Reinforcement learning with verifiable rewards (RLVR) is a natural choice for this purpose, yet its application to dLLMs 
+===PAPER_44===
+The Impact of Editorial Intervention on Detecting Native Language Traces
+Native Language Identification (NLI) is the task of determining an author's native language (L1) from their non-native writings. With the advent of human-AI co-authorship, non-native texts are routinely corrected and rewritten by large language models, fundamentally altering the linguistic features 
+===PAPER_45===
+To Redact, or not to Redact? A Local LLM Approach to Deliberative Process Privilege Classification
+Government transparency laws, like the Freedom of Information (FOIA) acts in the United States and United Kingdom, and the Woo (Open Government Act) in the Netherlands, grant citizens the right to directly request documents from the government. As these documents might contain sensitive information,
+===PAPER_46===
+How Should LLMs Listen While Speaking? A Study of User-Stream Routing in Full-Duplex Spoken Dialogue
+Full-duplex spoken dialogue requires a model to keep listening while generating its own spoken response. This is challenging for large language models (LLMs), which are designed to extend a single coherent sequence and do not naturally support user input arriving during generation. We argue that how
+===PAPER_47===
+LegalCiteBench: Evaluating Citation Reliability in Legal Language Models
+Large language models (LLMs) are increasingly integrated into legal drafting and research workflows, where incorrect citations or fabricated precedents can cause serious professional harm. Existing legal benchmarks largely emphasize statutory reasoning, contract understanding, or general legal quest
+===PAPER_48===
+When Reviews Disagree: Fine-Grained Contradiction Analysis in Scientific Peer Reviews
+Scientific peer reviews frequently contain conflicting expert judgments, and the increasing scale of conference submissions makes it challenging for Area Chairs and editors to reliably identify and interpret such disagreements. Existing approaches typically frame reviewer disagreement as binary cont
+===PAPER_49===
+ASTRA-QA: A Benchmark for Abstract Question Answering over Documents
+Document-based question answering (QA) increasingly includes abstract questions that require synthesizing scattered information from long documents or across multiple documents into coherent answers. However, this setting is still poorly supported by existing benchmarks and evaluation methods, which
+===PAPER_50===
+NyayaAI: An AI-Powered Legal Assistant Using Multi-Agent Architecture and Retrieval-Augmented Generation
+Legal information in India remains largely inaccessible due to the complexity of legal language and the sheer volume of legal documentation involved in research and case analysis. This paper presents NyayaAI, an AI-powered legal assistant that automates and simplifies legal workflows for lawyers, la
+===PAPER_51===
+Synthetic Pre-Pre-Training Improves Language Model Robustness to Noisy Pre-Training Data
+Large language models (LLMs) rely on web-scale corpora for pre-training. The noise inherent in these datasets tends to obscure meaningful patterns and ultimately degrade model performance. Data curation mitigates but cannot eliminate such noise, so pre-training corpora remain noisy in practice. We t
+===PAPER_52===
+SkillRAE: Agent Skill-Based Context Compilation for Retrieval-Augmented Execution
+Large Language Model (LLM)-based agents (e.g., OpenClaw) increasingly rely on reusable skill libraries to solve artifact-rich tasks such as document-centric workflows and data-intensive analysis. As these libraries grow, a few works have attempted to study the Retrieval-Augmented Execution (RAE), wh
+===PAPER_53===
+GLiNER-Relex: A Unified Framework for Joint Named Entity Recognition and Relation Extraction
+Joint named entity recognition (NER) and relation extraction (RE) is a fundamental task in natural language processing for constructing knowledge graphs from unstructured text. While recent approaches treat NER and RE as separate tasks requiring distinct models, we introduce GLiNER-Relex, a unified 
+===PAPER_54===
+FERA: Uncertainty-Aware Federated Reasoning for Large Language Models
+Large language models (LLMs) exhibit strong reasoning capabilities when guided by high-quality demonstrations, yet such data is often distributed across organizations that cannot centralize it due to regulatory, proprietary, or institutional constraints. We study federated reasoning, where a server 
+===PAPER_55===
+PHAGE: Patent Heterogeneous Attention-Guided Graph Encoder for Representation Learning
+Patent claims form a directed dependency structure in which dependent claims inherit and refine the scope of earlier claims; however, existing patent encoders linearize claims as text and discard this hierarchy. Directly encoding this structure into self-attention poses two challenges: claim depende
+===PAPER_56===
+NCO: A Versatile Plug-in for Handling Negative Constraints in Decoding
+Controlling Large Language Models (LLMs) to prevent the generation of undesirable content, such as profanity and personally identifiable information (PII), has become increasingly critical. While earlier approaches relied on post-processing or resampling, recent research has shifted towards constrai
+===PAPER_57===
+Not-So-Strange Love: Language Models and Generative Linguistic Theories are More Compatible than They Appear
+Futrell and Mahowald (2025) frame the success of neural language models (LMs) as supporting gradient, usage-based linguistic theories. I argue that LMs can also instantiate theories based on formal structures - the types of theories seen in the generative tradition. This argument expands the space o
+===PAPER_58===
+Swarm Skills: A Portable, Self-Evolving Multi-Agent System Specification for Coordination Engineering
+As artificial intelligence engineering paradigms shift from single-agent Prompt and Context Engineering toward multi-agent \textbf{Coordination Engineering}, the ability to codify and systematically improve how multiple agents collaborate has emerged as a critical bottleneck. While single-agent skil
+===PAPER_59===
+Personalizing LLMs with Binary Feedback: A Preference-Corrected Optimization Framework
+Large Language Model (LLM) personalization aims to align model behaviors with individual user preferences. Existing methods often focus on isolated user histories, neglecting the essential role of inter-user differences. We propose C-BPO, a framework that personalizes LLMs via preference-calibrated 
+===PAPER_60===
+PlantMarkerBench: A Multi-Species Benchmark for Evidence-Grounded Plant Marker Reasoning
+Cell-type-specific marker genes are fundamental to plant biology, yet existing resources primarily rely on curated databases or high-throughput studies without explicitly modeling the supporting evidence found in scientific literature. We introduce PlantMarkerBench, a multi-species benchmark for eva
+===PAPER_61===
+Speech-based Psychological Crisis Assessment using LLMs
+Psychological support hotlines provide critical support for individuals experiencing mental health emergencies, yet current assessments largely rely on human operators whose judgments may vary with professional experience and are constrained by limited staffing resources. This paper proposes a large
+===PAPER_62===
+Medical Incident Causal Factors and Preventive Measures Generation Using Tag-based Example Selection in Few-shot Learning
+In high-stakes domains such as healthcare, the reliability of Large Language Models (LLMs) is critical, particularly when generating clinical insights from incident reports. This study proposes a tag-based few-shot example selection method for prompting LLMs to generate background/causal factors and
+===PAPER_63===
+Annotations Mitigate Post-Training Mode Collapse
+Post-training (via supervised fine-tuning) improves instruction-following, but often induces semantic mode collapse by biasing models toward low-entropy fine-tuning data at the expense of the high-entropy pretraining distribution. Crucially, we find this trade-off worsens with scale. To close this s
+===PAPER_64===
+Merlin: Deterministic Byte-Exact Deduplication for Lossless Context Optimization in Large Language Model Inference
+Data-intensive applications, ranging from large-scale retrieval systems to advanced data pipelines, are increasingly bottlenecked by the processing of highly redundant text corpora. We present Merlin, a local-first, agnostic, high-throughput deduplication and context optimization engine designed to 
+===PAPER_65===
+GLiNER2-PII: A Multilingual Model for Personally Identifiable Information Extraction
+Reliable detection of personally identifiable information (PII) is increasingly important across modern data-processing systems, yet the task remains difficult: PII spans are heterogeneous, locale-dependent, context-sensitive, and often embedded in noisy or semi-structured documents. We present GLiN
+===PAPER_66===
+Beyond Majority Voting: Agreement-Based Clustering to Model Annotator Perspectives in Subjective NLP Tasks
+Disagreement in annotation is a common phenomenon in the development of NLP datasets and serves as a valuable source of insight. While majority voting remains the dominant strategy for aggregating labels, recent work has explored modeling individual annotators to preserve their perspectives. However
+===PAPER_67===
+TRACER: Verifiable Generative Provenance for Multimodal Tool-Using Agents
+Multimodal large language models increasingly solve vision-centric tasks by calling external tools for visual inspection, OCR, retrieval, calculation, and multi-step reasoning. Current tool-using agents usually expose the executed tool trajectory and the final answer, but they rarely specify which t
+===PAPER_68===
+FocuSFT: Bilevel Optimization for Dilution-Aware Long-Context Fine-Tuning
+Large language models can now process increasingly long inputs, yet their ability to effectively use information spread across long contexts remains limited. We trace this gap to how attention budget is spent during supervised fine-tuning (SFT) on long sequences: positional biases and attention sink
+===PAPER_69===
+PruneTIR: Inference-Time Tool Call Pruning for Effective yet Efficient Tool-Integrated Reasoning
+Tool-integrated reasoning (TIR) enables large language models (LLMs) to enhance their capabilities by interacting with external tools, such as code interpreters (CI). Most recent studies focus on exploring various methods to equip LLMs with the ability to use tools. However, how to further boost the
+===PAPER_70===
+Evolving Knowledge Distillation for Lightweight Neural Machine Translation
+Recent advancements in Neural Machine Translation (NMT) have significantly improved translation quality. However, the increasing size and complexity of state-of-the-art models present significant challenges for deployment on resource-limited devices. Knowledge distillation (KD) is a promising approa
+===PAPER_71===
+Team-Based Self-Play With Dual Adaptive Weighting for Fine-Tuning LLMs
+While recent self-training approaches have reduced reliance on human-labeled data for aligning LLMs, they still face critical limitations: (i) sensitivity to synthetic data quality, leading to instability and bias amplification in iterative training; (ii) ineffective optimization due to a diminishin
+===PAPER_72===
+Position: Academic Conferences are Potentially Facing Denominator Gaming Caused by Fully Automated Scientific Agents
+The implicit policy of maintaining relatively stable acceptance rates at top AI conferences, despite exponentially growing submissions, introduces a critical structural vulnerability. This position paper characterizes a new systemic threat we term Agentic Denominator Gaming, in which a malicious act
+===PAPER_73===
+Pseudo-Deliberation in Language Models: When Reasoning Fails to Align Values and Actions
+Large language models (LLMs) are often evaluated based on their stated values, yet these do not reliably translate into their actions, a discrepancy termed "value-action gap." In this work, we argue that this gap persists even under explicit reasoning, revealing a deeper failure mode we call "Pseudo
+===PAPER_74===
+The Association of Transformer-based Sentiment Analysis with Symptom Distress and Deterioration in Routine Psychotherapy Care
+Sentiment analysis has been of long-standing interest in psychotherapy research. Recently, the Transformer deep learning architecture has produced text-based sentiment analysis models that are highly accurate and context-aware. These models have been explored as proxies for emotion measurement instr
+===PAPER_75===
+Quantifying the Utility of User Simulators for Building Collaborative LLM Assistants
+User simulators are increasingly leveraged to build interactive AI assistants, yet how to measure the quality of these simulators remains an open question. In this work, we show how simulator quality can be quantified in terms of its downstream utility: how an LLM assistant trained with this user si
+===PAPER_76===
+cantnlp@DravidianLangTech 2026: organic domain adaptation improves multi-class hope speech detection in Tulu
+This paper presents our systems and results for the Hope Speech Detection in Code-Mixed Tulu Language shared task at the Sixth Workshop on Speech, Vision, and Language Technologies for Dravidian Languages (DravidianLangTech-2026). We trained an XLM-RoBERTa-based text classification system for detect
+===PAPER_77===
+Exploitation Without Deception: Dark Triad Feature Steering Reveals Separable Antisocial Circuits in Language Models
+We use sparse autoencoder (SAE) feature steering to amplify Dark Triad personality traits (Machiavellianism, narcissism, and psychopathy) in Llama-3.3-70B-Instruct and evaluate the resulting behavioral changes across five psychological instruments. The steered model becomes substantially more exploi
+===PAPER_78===
+ConFit v3: Improving Resume-Job Matching with LLM-based Re-Ranking
+A reliable resume-job matching system helps a company find suitable candidates from a pool of resumes and helps a job seeker find relevant jobs from a list of job posts. While recent advances in embedding-based methods such as ConFit and ConFit v2 can efficiently retrieve candidates at scale, the la
+===PAPER_79===
+Language Models Without a Trainable Input Embedding Table: Learning from Fixed Minimal Binary Token Codes
+Trainable input embedding tables are a standard component of modern language models. We ask whether they are actually necessary at the input interface. For a vocabulary of size $V$, exact token identity requires only $K=\lceil \log_2 V\rceil$ bits. We replace the usual trainable $V\times d_{\text{mo
+===PAPER_80===
+The Silent Vote: Improving Zero-Shot LLM Reliability by Aggregating Semantic Neighborhoods
+Large Language Models are increasingly used as zero-shot classifiers in complex reasoning tasks. However, standard constrained decoding suffers from a phenomenon we define as Renormalization Bias. When a model is restricted to a small set of target labels, the standard softmax operation discards the
+===PAPER_81===
+MedMeta: A Benchmark for LLMs in Synthesizing Meta-Analysis Conclusion from Medical Studies
+Large language models (LLMs) have saturated standard medical benchmarks that test factual recall, yet their ability to perform higher-order reasoning, such as synthesizing evidence from multiple sources, remains critically under-explored. To address this gap, we introduce MedMeta, the first benchmar
+===PAPER_82===
+K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs
+Large language models (LLMs) are increasingly used in K-12 education, yet existing benchmarks such as C-Eval, CMMLU, GaokaoBench, and EduEval mainly evaluate factual recall through exam-style question answering. Effective educational AI additionally requires curriculum cognition: understanding how k
+===PAPER_83===
+Can We Trust LLMs for Mental Health Screening? Consistency, ASR Robustness, and Evidence Faithfulness
+LLMs can estimate Hospital Anxiety and Depression Scale (HADS) scores from speech in a zero-shot manner, but clinical deployment requires reliability across three dimensions: intra-model consistency, ASR robustness, and evidence faithfulness. We evaluate three LLMs (Phi-4, Gemma-2-9B, and Llama-3.1-
+===PAPER_84===
+Scratchpad Patching: Decoupling Compute from Patch Size in Byte-Level Language Models
+Tokenizer-free language models eliminate the tokenizer step of the language modeling pipeline by operating directly on bytes; patch-based variants further aggregate contiguous byte spans into patches for efficiency. However, the average patch size chosen at the model design stage governs a tight tra
+===PAPER_85===
+Statistical Scouting Finds Debate-Safe but Not Debate-Useful Cases: A Matched-Ceiling Study of Open-Weight LLM Reasoning Protocols
+When should a language model answer directly, sample and vote, or engage in multi-agent debate? Recent work shows voting often explains much of the gain attributed to debate, while selective-debate systems activate deliberation only on uncertain examples. We ask: under a matched ceiling on generated
+===PAPER_86===
+Byte-Exact Deduplication in Retrieval-Augmented Generation: A Three-Regime Empirical Analysis Across Public Benchmarks
+This preprint presents an empirical analysis of byte-exact chunk-level deduplication in Retrieval-Augmented Generation (RAG) pipelines. We measure context reduction across three distinct operating regimes: clean academic retrieval (0.16% byte reduction on 22.2M BeIR passages), constructed enterprise
+===PAPER_87===
+Edit-Based Refinement for Parallel Masked Diffusion Language Models
+Masked diffusion language models enable parallel token generation and offer improved decoding efficiency over autoregressive models. However, their performance degrades significantly when generating multiple tokens simultaneously, due to a mismatch between token-level training objectives and joint s
+===PAPER_88===
+CLR-voyance: Reinforcing Open-Ended Reasoning for Inpatient Clinical Decision Support with Outcome-Aware Rubrics
+Inpatient clinical reasoning is a sequential decision under partial observability: the clinician sees the admission so far and must choose the next action whose downstream consequences are not yet visible. Existing clinical-LLM evaluations and RL rewards signals collapse this into closed-form retrie
+===PAPER_89===
+Towards Compact Sign Language Translation: Frame Rate and Model Size Trade-offs
+Sign Language Translation (SLT) converts sign language videos into spoken-language text, bridging communication between Deaf and hearing communities. Current gloss-free approaches rely on large encoder-decoder models, limiting deployment. We propose a compact 77M-parameter pipeline that couples MMPo
+===PAPER_90===
+Crosslingual On-Policy Self-Distillation for Multilingual Reasoning
+Large language models (LLMs) have achieved remarkable progress in mathematical reasoning, but this ability is not equally accessible across languages. Especially low-resource languages exhibit much lower reasoning performance. To address this, we propose Crosslingual On-Policy Self-Distillation (COP
+===PAPER_91===
+TacoMAS: Test-Time Co-Evolution of Topology and Capability in LLM-based Multi-Agent Systems
+Multi-agent systems (MAS) have emerged as a promising paradigm for solving complex tasks. Recent work has explored self-evolving MAS that automatically optimize agent capabilities or communication topologies. However, existing methods either learn a topology that remains fixed at inference time or a
+===PAPER_92===
+TAD: Temporal-Aware Trajectory Self-Distillation for Fast and Accurate Diffusion LLM
+Diffusion large language models (dLLMs) offer a promising paradigm for parallel text generation, but in practice they face an accuracy-parallelism trade-off, where increasing tokens per forward (TPF) often degrades generation quality. Existing acceleration methods often gain speed at the cost of acc
+===PAPER_93===
+Assessment of RAG and Fine-Tuning for Industrial Question-Answering-Applications
+Large Language Models (LLMs) are increasingly employed in enterprise question-answering (QA) systems, requiring adaptation to domain-specific knowledge. Among the most prevalent methods for incorporating such knowledge are Retrieval-Augmented Generation (RAG) and fine-tuning (FT). Yet, from a cost-a
+===PAPER_94===
+Hidden Error Awareness in Chain-of-Thought Reasoning: The Signal Is Diagnostic, Not Causal
+Chain-of-thought (CoT) prompting assumes that generated reasoning reflects a model's internal computation. We show this assumption is wrong in a specific, measurable way: models internally detect their own reasoning errors but outwardly express confidence in them. A linear probe on hidden states pre
+===PAPER_95===
+Beyond Language: Format-Agnostic Reasoning Subspaces in Large Language Models
+Large language models represent the same reasoning in vastly different surface forms -- English prose, Python code, mathematical notation -- yet whether they share a common internal substrate across these symbolic systems remains unknown. We introduce the TriForm Benchmark (18 concepts x 6 forms x 3
+===PAPER_96===
+APCD: Adaptive Path-Contrastive Decoding for Reliable Large Language Model Generation
+Large language models (LLMs) often suffer from hallucinations due to error accumulation in autoregressive decoding, where suboptimal early token choices misguide subsequent generation. Although multi-path decoding can improve robustness by exploring alternative trajectories, existing methods lack pr
+===PAPER_97===
+Not All Thoughts Need HBM: Semantics-Aware Memory Hierarchy for LLM Reasoning
+Reasoning LLMs produce thousands of chain-of-thought tokens whose KV cache must reside in scarce GPU HBM. The dominant response -- permanently evicting low-importance tokens -- is catastrophic for reasoning: accuracy collapses to 0-2.5% when half the cache is removed. We ask a different question: mu
+===PAPER_98===
+A Cognitively Grounded Bayesian Framework for Misinformation Susceptibility
+In this (work in progress) paper, we present Bounded Pragmatic Listener (or BPL), a cognitively grounded Bayesian framework for modelling susceptibility to information disorder. BPL extends Rational Speech Act theory with three cognitively motivated bounds derived from the bounded rationality litera
+===PAPER_99===
+Align and Shine: Building High-Quality Sentence-Aligned Corpora for Multilingual Text Simplification
+Text simplification plays a crucial role in improving the accessibility and comprehensibility of written information for diverse audiences, including language learners and readers with limited literacy. Despite its importance, large-scale, high-quality datasets for training and evaluating text simpl
+===PAPER_100===
+FinMoji: A Framework for Emoji-driven Sentiment Analysis in Financial Social Media
+This paper explores the use of emojis in financial sentiment analysis, focusing on the social media platform StockTwits. Emojis, increasingly prevalent in digital communication, have potential as compact indicators of investor sentiment, which can be critical for predicting market trends. Our study 
+===PAPER_101===
+Beyond Position Bias: Shifting Context Compression from Position-Driven to Semantic-Driven
+Large Language Models (LLMs) have demonstrated exceptional performance across diverse tasks. However, their deployment in long-context scenarios faces high computational overhead and information redundancy. While soft prompt compression has emerged as a promising way to mitigate these costs by compr
+===PAPER_102===
+Key Coverage Matters: Semi-Structured Extraction of OCR Clinical Reports
+Clinical reports are often fragmented across healthcare institutions because privacy regulations and data silos limit direct information sharing. When patients seek care at a different hospital, they often carry paper or scanned reports from prior visits. This hinders EHR integration and longitudina
+===PAPER_103===
+PumpSense: Real-Time Detection and Target Extraction of Crypto Pump-and-Dumps on Telegram
+Cryptocurrency pump-and-dump schemes coordinated via Telegram threaten market integrity. However, existing research addressing this specific threat has not yet produced solutions that combine reliable results with fast response. This is in part due to the absence of publicly available, message-level
+===PAPER_104===
+Perception Without Engagement: Dissecting the Causal Discovery Deficit in LMMs
+Although Large Multimodal Models (LMMs) have achieved strong performance on general video understanding, their susceptibility to textual prior shortcuts during causal discovery has been recognized as a critical deficit. The underlying mechanisms of this phenomenon remain incompletely understood, as 
+===PAPER_105===
+Cross-Cultural Transfer of Emoji Semantics and Sentiment in Financial Social Media
+Emojis are widely used in online financial communication, but it is unclear whether they provide transferable sentiment signals across languages, platforms, and asset communities. This study examines the extent to which emoji usage, semantics, and sentiment polarity remain stable across financial co
+===PAPER_106===
+HOME-KGQA: A Benchmark Dataset for Multimodal Knowledge Graph Question Answering on Household Daily Activities
+Large Language Models (LLMs) provide flexible natural language processing capabilities, while knowledge graphs (KGs) offer explicit and structured knowledge. Integrating these two in a complementary manner enables the development of reliable and verifiable AI systems. In particular, knowledge graph 
+===PAPER_107===
+RuPLaR : Efficient Latent Compression of LLM Reasoning Chains with Rule-Based Priors From Multi-Step to One-Step
+The Chain-of-Thought (CoT) paradigm, while enhancing the interpretability of Large Language Models (LLMs), is constrained by the inefficiencies and expressive limits of natural language. Latent Chain-of-Thought (latent CoT) reasoning, which operates in a continuous latent space, offers a promising a
+===PAPER_108===
+Test-Time Speculation
+Speculative decoding accelerates LLM inference by using a fast draft model to generate tokens and a more accurate target model to verify them. Its performance depends on the $\textit{acceptance length}$, or number of draft tokens accepted by the target. Our studies show that the acceptance length of
+===PAPER_109===
+Mem-W: Latent Memory-Native GUI Agents
+GUI agents are beginning to operate the web, mobile, and desktop as interactive worlds, where successful control depends on carrying forward visual, procedural, and task-level evidence beyond the fleeting present screen. Yet most agents still treat memory as an external, human-readable artifact: his
+===PAPER_110===
+LEAF-SQL: Level-wise Exploration with Adaptive Fine-graining for Text-to-SQL Skeleton Prediction
+Text-to-SQL translates natural language questions into executable SQL queries, enabling intuitive database access for non-experts. While large language models achieve strong performance on Text-to-SQL with prompting, they still struggle with complex queries that involve deeply nested logic or multip
+===PAPER_111===
+BetaEdit: Null-Space Constrained Sequential Model Editing
+Null-space-based methods have garnered considerable attention in model editing by constraining updates to the null space of the pre-existing knowledge representation, thereby preserving the model's original behavior. However, in practice these methods rely on an approximate null space--leading to kn
+===PAPER_112===
+DeltaRubric: Generative Multimodal Reward Modeling via Joint Planning and Verification
+Aligning Multimodal Large Language Models (MLLMs) requires reliable reward models, yet existing single-step evaluators can suffer from lazy judging, exploiting language priors over fine-grained visual verification. While rubric-based evaluation mitigates these biases in text-only settings, extending
+===PAPER_113===
+Beyond Continuity: Challenges of Context Switching in Multi-Turn Dialogue with LLMs
+Users interacting with Large Language Models (LLMs) in a multi-turn conversation routinely refine their requests or pivot to new topics. LLMs, however, often miss these topic shifts and carry over irrelevant context from previous turns, leading to inaccurate responses. In this paper, we stress-test 
+===PAPER_114===
+Cornerstones or Stumbling Blocks? Deciphering the Rock Tokens in On-Policy Distillation
+While recent work in Reinforcement Learning with Verifiable Rewards (RLVR) has shown that a small subset of critical tokens disproportionately drives reasoning gains, an analogous token-level understanding of On-Policy Distillation (OPD) remains largely unexplored. In this work, we investigate high-
+===PAPER_115===
+LLM Agents Already Know When to Call Tools -- Even Without Reasoning
+Tool-augmented LLM agents tend to call tools indiscriminately, even when the model can answer directly. Each unnecessary call wastes API fees and latency, yet no existing benchmark systematically studies when a tool call is actually needed. We propose When2Tool, a benchmark of 18 environments (15 si
+===PAPER_116===
+Repeated-Token Counting Reveals a Dissociation Between Representations and Outputs
+Large language models fail at counting repeated tokens despite strong performance on broader reasoning benchmarks. These failures are commonly attributed to limitations in internal count tracking. We show this attribution is wrong. Linear probes on the residual stream decode the correct count with n
+===PAPER_117===
+Matching Meaning at Scale: Evaluating Semantic Search for 18th-Century Intellectual History through the Case of Locke
+While digitized corpora have transformed the study of intellectual transmission, current methods rely heavily on lexical text reuse detection, capturing verbatim quotations but fundamentally missing paraphrases and complex implicit engagement. This paper evaluates semantic search in 18th-century int
+===PAPER_118===
+Two Ways to De-Bias an LLM-as-a-Judge: A Continuous-Score Comparison of Hierarchical Bayesian Calibration and Neural-ODE Score Transport
+[Abridged] Using a Large Language Model (LLM) as an automatic rater (LLM-as-a-judge) is cheap but potentially biased: some judges run lenient, others strict, the middle of the scale gets compressed, and verbose answers may be over-rewarded. A common remedy is post-hoc calibration: leave the cheap ju
+===PAPER_119===
+WorldSpeech: A Multilingual Speech Corpus from Around the World
+Automatic speech recognition (ASR) performs well for high-resource languages with abundant paired audio-transcript data, but its accuracy degrades sharply for most languages due to limited publicly available aligned data. To this end, we introduce WorldSpeech, a 24 kHz multilingual speech corpus com
+===PAPER_120===
+Lost in Translation? Exploring the Shift in Grammatical Gender from Latin to Occitan
+The diachronic evolution from Latin to the Romance languages involved a restructuring of the grammatical gender system from a tripartite configuration (masculine, feminine, neuter) to a bipartite one (masculine, feminine). In this work, we introduce an interpretable deep learning framework to invest
+===PAPER_121===
+Meow-Omni 1: A Multimodal Large Language Model for Feline Ethology
+Deciphering animal intent is a fundamental challenge in computational ethology, largely because of semantic aliasing, the phenomenon where identical external signals (e.g., a cat's purr) correspond to radically different internal states depending on physiological context. Existing Multimodal Large L
+===PAPER_122===
+From Traditional Taggers to LLMs: A Comparative Study of POS Tagging for Medieval Romance Languages
+Part-of-speech (POS) tagging for Medieval Romance languages remains challenging due to orthographic variation, morphological complexity, and limited annotated resources. This paper presents a systematic empirical evaluation of large language models (LLMs) for POS tagging across three medieval variet
+===PAPER_123===
+Fin-Bias: Comprehensive Evaluation for LLM Decision-Making under human bias in Finance Domain
+Large language models (LLMs) are increasingly deployed in financial contexts, raising critical concerns about reliability, alignment, and susceptibility to adversarial manipulation. While prior finance-related benchmarks assess LLMs' capabilities in stock trading, they are often restricted to small 
+===PAPER_124===
+GRC: Unifying Reasoning-Driven Generation, Retrieval and Compression
+Text embedding and generative tasks are usually trained separately based on large language models (LLMs) nowadays. This causes a large amount of training cost and deployment effort. Context compression is also a challenging and pressing task, which is vital to reasoning-driven generation, and agenti
+===PAPER_125===
+Dynamic Meta-Metrics: Source-Sentence Conditioned Weighting for MT Evaluation
+We propose Dynamic Meta-Metrics (DMM), a framework for machine translation evaluation that learns source-sentence conditioned combinations of existing metrics. Rather than relying on a single static ensemble or language-specific weighting, DMM adapts the metric combination based on properties of the
+===PAPER_126===
+Character-Level Transformer for Tajik-Persian Transliteration with a Parallel Lexical Corpus
+This study addresses automatic transliteration from Tajik (Cyrillic script) to Persian (Perso-Arabic script). We present a curated, lexicographically verified parallel corpus of 52,152 Tajik--Persian words and short phrases, compiled from printed dictionaries, encyclopedic sources, and manually veri
+===PAPER_127===
+Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs
+Following the recent achievement of gold-medal performance on the IMO by frontier LLMs, the community is searching for the next meaningful and challenging target for measuring LLM reasoning. Whereas olympiad-style problems measure step-by-step reasoning alone, research-level problems use such reason
+===PAPER_128===
+Language-Conditioned Visual Grounding with CLIP Multilingual
+Multilingual vision-language models exhibit systematic performance gaps across languages, but the mechanism remains ambiguous: cross-language divergence could arise from the visual encoder, the text branch, or their interaction. We resolve this ambiguity through a dense multilingual CLIP probe in wh
+===PAPER_129===
+Phase Transitions in Affective Meaning Divergence: The Hidden Drift Before the Break
+One partner says "Fine" meaning <i>resolution</i>; the other hears <i>surrender</i>. The word is shared; the affective uptake is not. We formalize this as <b>affective meaning divergence (AMD)</b>, the total-variation distance between interlocutors' anchor-conditioned affect distributions. Building 
+===PAPER_130===
+Evaluating Pragmatic Reasoning in Large Language Models: Evidence from Scalar Diversity
+Evaluating pragmatic reasoning in large language models (LLMs) remains challenging because model behavior can vary depending on evaluation methods. Previous studies suggest that prompt-based judgments may diverge from models' internal probability distributions, raising questions about whether observ
+===PAPER_131===
+BiAxisAudit: A Novel Framework to Evaluate LLM Bias Across Prompt Sensitivity and Response-Layer Divergence
+Bias audits of large language models now operate within governance frameworks such as the EU AI Act, making benchmark reliability a security concern in its own right. Many current benchmarks, however, collapse bias into a single scalar from one prompt format and one surface label. This design misses
+===PAPER_132===
+A Quantum Inspired Variational Kernel and Explainable AI Framework for Cross Region Solar and Wind Energy Forecasting
+Reliable short horizon forecasting of solar and wind generation is a structural prerequisite of any modern power system yet most published forecasters are tuned and evaluated on a single climatic regime and most algorithmic novelty has been concentrated either on classical recurrent networks or on m
+===PAPER_133===
+GAMBIT: A Three-Mode Benchmark for Adversarial Robustness in Multi-Agent LLM Collectives
+In multi-agent systems (MAS), a single deceptive agent can nullify all gains of an agentic AI collective and evade deployed defenses. However, existing adversarial studies on MAS target only shallow tasks and do not consider adaptive adversaries, which evolve their strategies to evade the very detec
+===PAPER_134===
+LLiMba: Sardinian on a Single GPU -- Adapting a 3B Language Model to a Vanishing Romance Language
+Sardinian, a Romance language with roughly one million speakers, has minimal presence in modern NLP. Commercial services do not support it, and current language models do not produce it reliably. We present LLiMba, a 3B parameter Sardinian-ready model adapted from Qwen2.5-3B-Instruct through continu
+===PAPER_135===
+Dolphin-CN-Dialect: Where Chinese Dialects Matter
+We present Dolphin-CN-Dialect, a streaming-capable ASR model with a focus on Chinese and dialect-rich scenarios. Compared to the previous version, Dolphin-CN-Dialect introduces substantial improvements in data processing, tokenization, training stability, and data sampling strategies. To address the
+===PAPER_136===
+Improving Lexical Difficulty Prediction with Context-Aligned Contrastive Learning and Ridge Ensembling
+Lexical difficulty prediction is a fundamental problem in language learning and readability assessment, requiring models to estimate word difficulty across different first-language (L1) backgrounds. However, existing approaches rely on regression-only training with scalar supervision, which does not
+===PAPER_137===
+Decomposing and Steering Functional Metacognition in Large Language Models
+Large language models (LLMs) increasingly exhibit behaviors suggesting awareness of their evaluation context, often adapting their reasoning strategies in benchmark settings. Prior work has shown that such evaluation awareness can distort performance measurements; however, it remains unclear whether
+===PAPER_138===
+LLM-Agnostic Semantic Representation Attack
+Large Language Models (LLMs) increasingly employ alignment techniques to prevent harmful outputs. Despite these safeguards, attackers can circumvent them by crafting adversarial prompts. Predominant token-level optimization methods primarily rely on optimizing for exact affirmative templates (e.g., 
+===PAPER_139===
+FragileFlow: Spectral Control of Correct-but-Fragile Predictions for Foundation Model Robustness
+Robust adaptation of LLMs and VLMs is often evaluated by average accuracy or average consistency under perturbations. However, these averages can hide a structured failure mode: a prediction may remain correct while probability mass already flows from particular true classes toward systematic wrong 
+===PAPER_140===
+Fitting Is Not Enough: Smoothness in Extremely Quantized LLMs
+Large language models (LLMs) achieve strong performance but incur high deployment costs, motivating extremely low-bit but lossy quantization. Existing quantization algorithms mainly focus on improving the numerical accuracy of forward computation to eliminate performance degradation. In this paper, 
+===PAPER_141===
+DocScope: Benchmarking Verifiable Reasoning for Trustworthy Long-Document Understanding
+Evaluating whether Multimodal Large Language Models can produce trustworthy, verifiable reasoning over long, visually rich documents requires evaluation beyond end-to-end answer accuracy. We introduce DocScope, a benchmark that formulates long-document QA as a structured reasoning trajectory predict
+===PAPER_142===
+Max-pooling Network Revisited: Analyzing the Role of Semantic Probability in Multiple Instance Learning for Hallucination Detection
+Hallucination detection has become increasingly important for improving the reliability of large language models (LLMs). Recently, hybrid approaches such as HaMI, which combine semantic consistency with internal model states via Multiple Instance Learning (MIL), have achieved state-of-the-art perfor
+===PAPER_143===
+Architecture, Not Scale: Circuit Localization in Large Language Models
+Mechanistic interpretability assumes that circuit analysis becomes harder as models scale. We challenge this assumption by showing that the attention architecture matters more than parameter count. Studying three circuit types across Pythia and Qwen2.5, we find that grouped query attention produces 
+===PAPER_144===
+EmoS: A High-Fidelity Multimodal Benchmark for Fine-grained Streaming Emotional Understanding
+In the context of today's high-pressure, aging society, the demand for large-scale emotional models capable of providing empathetic support is more critical than ever. However, existing benchmarks fail to simultaneously achieve ecological validity, signal clarity, and reliable fine-grained labeling.
+===PAPER_145===
+XPERT: Expert Knowledge Transfer for Effective Training of Language Models
+Mixture-of-Experts (MoE) language models organize knowledge into explicitly routed expert modules, making expert-level representations traceable and analyzable. By analyzing expert activation patterns in MoE large language models (LLMs), we find that a subset of experts is consistently activated acr
+===PAPER_146===
+ReST-KV: Robust KV Cache Eviction with Layer-wise Output Reconstruction and Spatial-Temporal Smoothing
+Large language models (LLMs) face growing challenges in efficient generative inference due to the increasing memory demands of Key-Value (KV) caches, especially for long sequences. Existing eviction methods typically retain KV pairs with high attention weights but overlook the impact of attention re
+===PAPER_147===
+Generating Leakage-Free Benchmarks for Robust RAG Evaluation
+Retrieval-augmented generation (RAG) is widely used to augment large language models (LLMs) with external knowledge. However, many benchmark datasets, designed to test RAG performance, comprise many questions that can already be answered from an LLM's parametric memory. This leads to unreliable eval
+===PAPER_148===
+The Grounding Gap: How LLMs Anchor the Meaning of Abstract Concepts Differently from Humans
+Abstract concepts - justice, theory, availability - have no single perceivable referent; in the human brain, their meaning emerges from a web of experiences, affect, and social context. Do large language models (LLMs) ground abstract concepts in a similar way? We study this by replicating property-g
+===PAPER_149===
+SimReg: Achieving Higher Performance in the Pretraining via Embedding Similarity Regularization
+Pretraining large language models (LLMs) with next-token prediction has led to remarkable advances, yet the context-dependent nature of token embeddings in such models results in high intra-class variance and inter-class similarity, thus hindering the efficiency of representation learning. While sim
+===PAPER_150===
+Narrative Landscape: Mapping Narrative Dispositions Across LLMs
+This study proposes a quantitative framework for profiling LLM dispositions as stable, model-specific regularities in output under repeated, controlled elicitation. Using a structured narrative constraint-selection task administered across six frontier models and three instruction types, we operatio
+===PAPER_151===
+Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning
+Inference-time harnesses substantially improve large language models on complex reasoning tasks. However, the intrinsic capabilities of the underlying model remain unchanged by the addition of these external workflows. To bridge this gap, we introduce \emph{On-Policy Harness Self-Distillation} (OPHS
+===PAPER_152===
+Breaking the Impasse: Dual-Scale Evolutionary Policy Training for Social Language Agents
+While Reinforcement Learning with Verifiable Rewards (RLVR) has proven effective for closed-ended tasks, extending it to open-ended social language games via self-play reveals a critical issue: evolution impasse. Due to the vast strategy space, language agents frequently converge to homogenized beha
+===PAPER_153===
+AgentForesight: Online Auditing for Early Failure Prediction in Multi-Agent Systems
+LLM-based multi-agent systems are increasingly deployed on long-horizon tasks, but a single decisive error is often accepted by downstream agents and cascades into trajectory-level failure. Existing work frames this as \emph{post-hoc failure attribution}, diagnosing the responsible agent and step af
+===PAPER_154===
+Structured Recurrent Mixers for Massively Parallelized Sequence Generation
+Over the last two decades, language modeling has experienced a shift from predominantly recurrent architectures that process tokens sequentially during training and inference to non-recurrent models that process sequence elements in parallel during training, which results in greater training efficie
+===PAPER_155===
+Explanation Fairness in Large Language Models: An Empirical Analysis of Disparities in How LLMs Justify Decisions Across Demographic Groups
+Large language models (LLMs) are increasingly deployed not only to make decisions but to explain them. While AI decision fairness has been studied extensively, the fairness of AI explanations (whether LLMs justify decisions with equal quality, depth, tone, and linguistic sophistication across demogr
+===PAPER_156===
+Hint Tuning: Less Data Makes Better Reasoners
+Large reasoning models achieve high accuracy through extended chain-of-thought but generate 5--8 more tokens than necessary, applying verbose reasoning uniformly regardless of problem difficulty. We propose Hint Tuning, a data-efficient approach that teaches models to calibrate reasoning depth. Our 
+===PAPER_157===
+AgentCollabBench: Diagnosing When Good Agents Make Bad Collaborators
+Multi-agent systems achieve state-of-the-art outcomes through peer collaboration. However, when an agent in the pipeline silently drops a constraint, the system's final output may look correct even though the reasoning chain was quietly corrupted, and existing outcome-based evaluations are blind to 
+===PAPER_158===
+EdgeFlowerTune: Evaluating Federated LLM Fine-Tuning Under Realistic Edge System Constraints
+Federated fine-tuning offers a promising paradigm for adapting large language models (LLMs) on edge devices by leveraging the rich, diverse, and continuously generated data from smartphones and IoT devices without compromising user data privacy. Such edge-side adaptation can improve model personaliz
+===PAPER_159===
+PARD-2: Target-Aligned Parallel Draft Model for Dual-Mode Speculative Decoding
+Speculative decoding accelerates Large Language Models (LLMs) inference by using a lightweight draft model to propose candidate tokens that are verified in parallel by the target model. However, existing draft model training objectives are not directly aligned with the inference-time goal of maximiz
+===PAPER_160===
+100,000+ Movie Reviews from Kazakhstan: Russian, Kazakh, and Code-Switched Texts
+We present a new publicly available corpus of 100,502 movie reviews from Kazakhstan collected from kino.kz, spanning 2001-2025 and covering 4,943 unique titles. The dataset is multilingual, consisting mainly of Russian reviews alongside Kazakh and code-switched texts. Reviews are manually annotated 
+===PAPER_161===
+Source or It Didn't Happen: A Multi-Agent Framework for Citation Hallucination Detection
+Large language models are increasingly used in scientific writing, yet they can fabricate citation-shaped references that appear plausible but fail bibliographic verification. Existing detectors often reduce verification to binary found/not-found decisions and rely on brittle parsing or incomplete r
+===PAPER_162===
+Coordinates of Capability: A Unified MTMM-Geometric Framework for LLM Evaluation
+The evaluation of Large Language Models (LLMs) faces a critical challenge in construct validity, where fragmented benchmarks and ad hoc metrics frequently conflate method variance, such as prompt sensitivity, with true latent capabilities. Concurrently, emerging research suggests that LLM capabiliti
+===PAPER_163===
+A Single Neuron Is Sufficient to Bypass Safety Alignment in Large Language Models
+Safety alignment in language models operates through two mechanistically distinct systems: refusal neurons that gate whether harmful knowledge is expressed, and concept neurons that encode the harmful knowledge itself. By targeting a single neuron in each system, we demonstrate both directions of fa
+===PAPER_164===
+A Single Layer to Explain Them All:Understanding Massive Activations in Large Language Models
+We investigate the origins of massive activations in large language models (LLMs) and identify a specific layer named the \textbf{Massive Emergence Layer (ME Layer)}, that is consistently observed across model families, where massive activations first emerge and subsequently propagate to deeper laye
+===PAPER_165===
+NARRA-Gym for Evaluating Interactive Narrative Agents
+Interactive narrative tasks require LLMs to sustain a coherent, evolving story while adapting to a user over multiple turns. However, suitable benchmarks for this setting are limited: existing evaluations often focus on static prompts, isolated story generations, or post-hoc ratings, and therefore m
+===PAPER_166===
+Do Agents Need to Plan Step-by-Step? Rethinking Planning Horizon in Data-Centric Tool Calling
+Explicit planning is a critical capability for LLM-based agents solving complex data-centric tasks, which require precise tool calling over external data sources. Existing strategies fall into two paradigms based on planning horizon: (1) full-horizon (FH), which generates a complete plan before exec
+===PAPER_167===
+A Computational Operationalisation of Competing Maturational Theories of Syntactic Development via Statistical Grammar Induction
+This paper is concerned with what intermediate syntactic categories children acquire during first language development, and in what order. Maturational theories make different predictions. Bottom-up accounts (GROWING) propose that lexical and inflectional structure emerges first, while inward accoun
+===PAPER_168===
+PYTHALAB-MERA: Validation-Grounded Memory, Retrieval, and Acceptance Control for Frozen-LLM Coding Agents
+Local LLM-based coding agents increasingly work in settings where correctness is earned through execution feedback, persistent state, and bounded repair, not through a single fluent answer. Static retrieval, long-context prompting, self-refinement, execution-feedback repair, and reinforcement learni
+===PAPER_169===
+Do Benchmarks Underestimate LLM Performance? Evaluating Hallucination Detection With LLM-First Human-Adjudicated Assessment
+Hallucination remains a persistent challenge in Large Language Models (LLMs), particularly in context-grounded settings such as RAG and agentic AI systems. This study focuses on contextual hallucination detection in summarization tasks. We analyze the QAGS-C and SummEval datasets by comparing origin
+===PAPER_170===
+Revisiting the syntax of imperatives in Yemeni Arabic: An Agree across phases approach
+This article revisits the syntax of imperatives in Yemeni Arabic proposing an Agree acros phases (AAP) approach. I argue that the AAP approach successfully accounts for both simple and complex imperative constructions, including A'-chain structures, by establishing a close interactions between synta
+===PAPER_171===
+Can Language Models Identify Side Effects of Breast Cancer Radiation Treatments?
+Accurately communicating the side effects of cancer treatments to cancer survivors is critical, particularly in settings such as informed consent, where clinicians must clearly and comprehensively convey potential treatment toxicities. However, this task remains challenging due to clinical knowledge
+===PAPER_172===
+Magis-Bench: Evaluating LLMs on Magistrate-Level Legal Tasks
+Existing benchmarks for legal AI focus primarily on tasks where LLMs must produce legal arguments or documents, yet the capacity to \emph{judge} such arguments -- weighing competing claims, applying doctrine to facts, and rendering reasoned decisions -- is arguably as fundamental to a well-functioni
+===PAPER_173===
+A Semantic-Sampling Framework for Evaluating Calibration in Open-Ended Question Answering
+Calibration measures whether a model's predicted confidence aligns with its empirical accuracy, and is central to the reliable deployment of large language models (LLMs) in high-stakes domains such as medicine and law. While much recent work focuses on improving LLM calibration, the equally importan
+===PAPER_174===
+Effective Explanations Support Planning Under Uncertainty
+Explaining how to get from A to B can be challenging. It requires mentally simulating what the listener will do based on what they are told. To capture this process, we propose a computational model that converts utterances into action plans: a large language model translates an explanation into pro
+===PAPER_175===
+Built Environment Reasoning from Remote Sensing Imagery Using Large Vision--Language Models
+This work investigates the use of large language models (LLMs) for tasks in smart cities. The core idea is to leverage remote sensing imagery to characterize the built environment, including design suggestions, constructability assessment, landuse patterns, and risk identification. We examine remote
+===PAPER_176===
+AIPO: : Learning to Reason from Active Interaction
+Recent advances in large language models (LLMs) have demonstrated remarkable reasoning capabilities, largely stimulated by Reinforcement Learning with Verifiable Rewards (RLVR). However, existing RL algorithms face a fundamental limitation: their exploration remains largely constrained by the inhere
+===PAPER_177===
+jina-embeddings-v5-omni: Text-Geometry-Preserving Multimodal Embeddings via Frozen-Tower Composition
+In this work, we introduce frozen-encoder model composition, a novel approach to multimodal embedding models. We build on the VLM-style architecture, in which non-text encoders are adapted to produce input for a language model, which in turn generates embeddings for all varieties of input. We presen
+===PAPER_178===
+Change My View? The Dynamics of Persuasion and Polarization in Online Discourse
+Philosophical accounts of persuasion often assume that shared evidence and rational argumentation should lead to a convergence of views between peers, yet everyday discourse often suggests otherwise. In this study, we use large language models to analyze a corpus of debates on Reddit's r/ChangeMyVie
+===PAPER_179===
+How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits
+The circuits framework in mechanistic interpretability aims to identify causally important sparse subgraphs of model components, typically evaluated by measuring necessity and sufficiency. We measure circuit reuse, the proportion of components shared across per-example circuits within a task, and in
+===PAPER_180===
+Sanity Checks for Long-Form Hallucination Detection
+Hallucination detection methods for large language models increasingly operate on chain-of-thought reasoning traces, yet it remains unclear whether they evaluate the reasoning itself or merely exploit surface correlates of the final answer. We introduce a controlled-invariance methodology that expos
+===PAPER_181===
+SalesSim: Benchmarking and Aligning Multimodal Language Models as Retail User Simulators
+We present SalesSim, a framework and testbed for evaluating the ability of Multimodal Large Language Models (MLLMs) to simulate realistic, persona-driven customer behavior in multi-turn, multi-modal, tool-augmented online retail conversations. Unlike prior work that treat user simulation as surface-
+===PAPER_182===
+DECO: Sparse Mixture-of-Experts with Dense-Comparable Performance on End-Side Devices
+While Mixture-of-Experts (MoE) scales model capacity without proportionally increasing computation, its massive total parameter footprint creates significant storage and memory-access bottlenecks, which hinder efficient end-side deployment that simultaneously requires high performance, low computati
+===PAPER_183===
+Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning
+Large language model agents increasingly rely on external skills to solve complex tasks, where skills act as modular units that extend their capabilities beyond what parametric memory alone supports. Existing methods assume external skills either accumulate as persistent guidance or internalized int
+===PAPER_184===
+Compute Where it Counts: Self Optimizing Language Models
+Efficient LLM inference research has largely focused on reducing the cost of each decoding step (e.g., using quantization, pruning, or sparse attention), typically applying a uniform computation budget to every generated token. In practice, token difficulty varies widely, so static compression can o
+===PAPER_185===
+The Generalized Turing Test: A Foundation for Comparing Intelligence
+We introduce the Generalized Turing Test (GTT), a formal framework for comparing the capabilities of arbitrary agents via indistinguishability. For agents A and B, we define the Turing comparator A $\geq$ B to hold if B, acting as a distinguisher, cannot reliably distinguish between interactions wit
+===PAPER_186===
+Rethinking Agentic Search with Pi-Serini: Is Lexical Retrieval Sufficient?
+Does a lexical retriever suffice as large language models (LLMs) become more capable in an agentic loop? This question naturally arises when building deep research systems. We revisit it by pairing BM25 with frontier LLMs that have better reasoning and tool-use abilities. To support researchers aski
+===PAPER_187===
+BabelDOC: Better Layout-Preserving PDF Translation via Intermediate Representation
+As global cross-lingual communication intensifies, language barriers in visually rich documents such as PDFs remain a practical bottleneck. Existing document translation pipelines face a tension between linguistic processing and layout preservation: text-oriented Computer-Assisted Translation (CAT) 
+===PAPER_188===
+SLIM: Sparse Latent Steering for Interpretable and Property-Directed LLM-Based Molecular Editing
+Large language models possess strong chemical reasoning capabilities, making them effective molecular editors. However, property-relevant information is implicitly entangled across their dense hidden states, providing no explicit handle for property control: a substantial fraction of edits fail to i
+===PAPER_189===
+Reasoning Is Not Free: Robust Adaptive Cost-Efficient Routing for LLM-as-a-Judge
+Reasoning-capable large language models (LLMs) have recently been adopted as automated judges, but their benefits and costs in LLM-as-a-Judge settings remain unclear. Through controlled comparisons between reasoning and non-reasoning judges, we show that explicit reasoning substantially improves jud
+===PAPER_190===
+The Last Word Often Wins: A Format Confound in Chain-of-Thought Corruption Studies
+Corruption studies, the primary tool for evaluating chain-of-thought (CoT) faithfulness, identify which chain positions are "computationally important" by measuring accuracy when steps are replaced with errors. We identify a systematic confound: for chains with explicit terminal answer statements, t
+===PAPER_191===
+Rebellious Student: Reversing Teacher Signals for Reasoning Exploration with Self-Distilled RLVR
+Self-distillation has emerged as a powerful framework for post-training LLMs, where a teacher conditioned on extra information guides a student without it, both from the same model. While this guidance is useful when the student has failed, on successful rollouts, the same mechanism instead overwrit
+===PAPER_192===
+LITMUS: Benchmarking Behavioral Jailbreaks of LLM Agents in Real OS Environments
+The rapid proliferation of LLM-based autonomous agents in real operating system environments introduces a new category of safety risk beyond content safety: behavior jailbreak, where an adversary induces an agent to execute dangerous OS-level operations with irreversible consequences. Existing bench
+===PAPER_193===
+Conformity Generates Collective Misalignment in AI Agents Societies
+Artificial intelligence safety research focuses on aligning individual language models with human values, yet deployed AI systems increasingly operate as interacting populations where social influence may override individual alignment. Here we show that populations of individually aligned AI agents 
+===PAPER_194===
+Step Rejection Fine-Tuning: A Practical Distillation Recipe
+Rejection Fine-Tuning (RFT) is a standard method for training LLM agents, where unsuccessful trajectories are discarded from the training set. In the context of SWE-bench tasks, this corresponds to filtering out runs where the submitted patch does not pass the tests. However, this approach discards 
+===PAPER_195===
+MulTaBench: Benchmarking Multimodal Tabular Learning with Text and Image
+Tabular Foundation Models have recently established the state of the art in supervised tabular learning, by leveraging pretraining to learn generalizable representations of numerical and categorical structured data. However, they lack native support for unstructured modalities such as text and image
+===PAPER_196===
+LLARS: Enabling Domain Expert & Developer Collaboration for LLM Prompting, Generation and Evaluation
+We demonstrate LLARS (LLM Assisted Research System), an open-source platform that bridges the gap between domain experts and developers for building LLM-based systems. It integrates three tightly connected modules into an end-to-end pipeline: Collaborative Prompt Engineering for real-time co-authori
+===PAPER_197===
+Collective Alignment in LLM Multi-Agent Systems: Disentangling Bias from Cooperation via Statistical Physics
+We investigate the emergent collective dynamics of LLM-based multi-agent systems on a 2D square lattice and present a model-agnostic statistical-physics method to disentangle social conformity from intrinsic bias, compute critical exponents, and probe the collective behavior and possible phase trans
+===PAPER_198===
+SlimSpec: Low-Rank Draft LM-Head for Accelerated Speculative Decoding
+Speculative decoding speeds up autoregressive generation in Large Language Models (LLMs) through a two-step procedure, where a lightweight draft model proposes tokens which the target model then verifies in a single forward pass. Although the drafter network is small in modern architectures, its LM-
+===PAPER_199===
+StereoTales: A Multilingual Framework for Open-Ended Stereotype Discovery in LLMs
+Multilingual studies of social bias in open-ended LLM generation remain limited: most existing benchmarks are English-centric, template-based, or restricted to recognizing pre-specified stereotypes. We introduce StereoTales, a multilingual dataset and evaluation pipeline for systematically studying 
+===PAPER_200===
+Toward Multi-Database Query Reasoning for Text2Cypher
+Large language models have significantly improved natural language interfaces to databases by translating user questions into executable queries. In particular, Text2Cypher focuses on generating Cypher queries for graph databases, enabling users to access graph data without query language expertise.
+===PAPER_201===
+How Mobile World Model Guides GUI Agents?
+Recent advances in vision-language models have enabled mobile GUI agents to perceive visual interfaces and execute user instructions, but reliable prediction of action consequences remains critical for long-horizon and high-risk interactions. Existing mobile world models provide either text-based or
+===PAPER_202===
+PowerStep: Memory-Efficient Adaptive Optimization via $\ell_p$-Norm Steepest Descent
+Adaptive optimizers, most notably Adam, have become the default standard for training large-scale neural networks such as Transformers. These methods maintain running estimates of gradient first and second moments, incurring substantial memory overhead. We introduce PowerStep, a memory-efficient opt
+===PAPER_203===
+Task-Aware Calibration: Provably Optimal Decoding in LLMs
+LLM decoding often relies on the model's predictive distribution to generate an output. Consequently, misalignment with respect to the true generating distribution leads to suboptimal decisions in practice. While a natural solution is to calibrate the model's output distribution, for LLMs, this is i
+===PAPER_204===
+V-ABS: Action-Observer Driven Beam Search for Dynamic Visual Reasoning
+Multimodal large language models (MLLMs) have achieved remarkable success in general perception, yet complex multi-step visual reasoning remains a persistent challenge. Although recent agentic approaches incorporate tool use, they often neglect critical execution feedback. Consequently, they suffer 
+===PAPER_205===
+MolSight: Molecular Property Prediction with Images
+Every molecule ever synthesised can be drawn as a 2D skeletal diagram, yet in modern property prediction this universally available representation has received less focus in favour of molecular graphs, 3D conformers, or billion-parameter language models, each imposing its own computational and data-
+===PAPER_206===
+Instruction Adherence in Coding Agent Configuration Files: A Factorial Study of Four File-Structure Variables
+Frontier coding agents read configuration files (CLAUDE.md, AGENTS.md, Cursor Rules) at session start and are expected to follow the conventions inside them. Practitioners assume that structural choices (file size, instruction position, file architecture, contradictions in adjacent files) measurably
+===PAPER_207===
+Federated Language Models Under Bandwidth Budgets: Distillation Rates and Conformal Coverage
+Training a language model on data scattered across bandwidth-limited nodes that cannot be centralized is a setting that arises in clinical networks, enterprise knowledge bases, and scientific consortia. We study the regime in which data must remain distributed across nodes, and ask what statistical 
+===PAPER_208===
+The Truth Lies Somewhere in the Middle (of the Generated Tokens)
+How should hidden states generated autoregressively be collapsed into a representation that reflects a language model's internal state? Despite tokens being generated under causal masking, we find that mean pooling across their hidden states yields more semantic representations than any individual t
+===PAPER_209===
+G-Zero: Self-Play for Open-Ended Generation from Zero Data
+Self-evolving LLMs excel in verifiable domains but struggle in open-ended tasks, where reliance on proxy LLM judges introduces capability bottlenecks and reward hacking. To overcome this, we introduce G-Zero, a verifier-free, co-evolutionary framework for autonomous self-improvement. Our core innova
+===PAPER_210===
+The Gordian Knot for VLMs: Diagrammatic Knot Reasoning as a Hard Benchmark
+A vision-language model can look at a knot diagram and report what it sees, yet fail to act on that structure. KnotBench pairs an 858,318-image corpus from 1,951 prime-knot prototypes (crossing numbers 3 to 19) with a protocol whose answers are checked against Regina's canonical knot signature. Its 
+===PAPER_211===
+Key-Value Means
+We present Key-Value Means ("KVM"), a novel block-recurrence for attention that can accommodate either fixed-size or growing state. Equipping a strong transformer baseline with fixed-size KVM attention layers yields a strong $O(N)$ chunked RNN, while adding only an insignificant number of new parame
+===PAPER_212===
+EgoMemReason: A Memory-Driven Reasoning Benchmark for Long-Horizon Egocentric Video Understanding
+Next-generation visual assistants, such as smart glasses, embodied agents, and always-on life-logging systems, must reason over an entire day or more of continuous visual experience. In ultra-long video settings, relevant information is sparsely distributed across hours or days, making memory a fund
+===PAPER_213===
+Nautilus Compass: Black-box Persona Drift Detection for Production LLM Agents
+Production LLM coding agents drift over long sessions: they forget user-specified constraints, slip into mistakes the user already flagged, and confabulate prior agreements. White-box approaches such as persona vectors require model weights and so cannot be applied to closed APIs (Claude, GPT-4) tha
+===PAPER_214===
+The Metacognitive Probe: Five Behavioural Calibration Diagnostics for LLMs
+The Metacognitive Probe is an exploratory five-task, 15-slot diagnostic that decomposes an LLM's confidence behaviour into five behaviourally-distinct dimensions: confidence calibration (T1-CC), epistemic vigilance (T2-EV), knowledge boundary (T3-KB), calibration range (T4-CR), and reasoning-chain v
+===PAPER_215===
+Parameter-Efficient Neuroevolution for Diverse LLM Generation: Quality-Diversity Optimization via Prompt Embedding Evolution
+Large Language Models exhibit mode collapse, producing homogeneous outputs that fail to explore valid solution spaces. We present QD-LLM, a framework for parameter-efficient neuroevolution that evolves prompt embeddings, compact neural interfaces (~32K parameters) that steer generation in frozen LLM
+===PAPER_216===
+Nectar: Neural Estimation of Cached-Token Attention via Regression
+Evaluating softmax attention over a fixed long context requires reading every cached key-value pair for each new query token. For a given context (a book, a manual, a legal corpus) the attention output is a deterministic function of the query. We propose Nectar, which fits a compact neural network t
+===PAPER_217===
+EvoPref: Multi-Objective Evolutionary Optimization Discovers Diverse LLM Alignments Beyond Gradient Descent
+Gradient-based preference optimization methods for large language model (LLM) alignment suffer from preference collapse, converging to narrow behavioral modes while neglecting preference diversity. We introduce EvoPref, a multi-objective evolutionary algorithm that maintains populations of Low-Rank 
+===PAPER_218===
+Calibrate, Don't Curate: Label-Efficient Estimation from Noisy LLM Judges
+Multi-judge evaluation is increasingly used to assess LLMs and reward models, and the prevailing heuristic is to curate: keep the most accurate judges and discard weaker ones. We show that this heuristic can reverse when the target is not point accuracy, but calibrated probabilistic evaluation from 
+===PAPER_219===
+Learning Multi-Indicator Weights for Data Selection: A Joint Task-Model Adaptation Framework with Efficient Proxies
+Data selection is a key component of efficient instruction tuning for large language models, as recent work has shown that data quality often matters more than data quantity. Accordingly, prior studies have introduced various multi-dimensional heuristics to evaluate and filter instruction data. Howe
+===PAPER_220===
+MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents
+As LLM-powered agents are increasingly deployed in edge-cloud environments, personalized memory has become a key enabler of long-term adaptation and user-centric interaction. However, cloud-assisted memory management exposes sensitive user information, while existing privacy protection methods typic
+===PAPER_221===
+Through the Lens of Character: Resolving Modality-Role Interference in Multimodal Role-Playing Agent
+The advancement of Multimodal Large Language Models (MLLMs) has expanded Role-Playing Agents (RPAs) into visually grounded environments. However, human vision is inherently subjective and identity-driven, whereas existing MLLMs extract objective, character-agnostic features for general tasks. In RPA
+===PAPER_222===
+Let the Target Select for Itself: Data Selection via Target-Aligned Paths
+Targeted data selection aims to identify training samples from a large candidate pool that improve performance on a specific downstream task. Many recent methods estimate candidate utility by aggregating local attribution scores along a trajectory induced by the candidate pool. When the pool is hete
+===PAPER_223===
+EduStory: A Unified Framework for Pedagogically-Consistent Multi-Shot STEM Instructional Video Generation
+Long-horizon video generation has advanced in visual quality, yet existing methods still struggle to maintain knowledge consistency and coherent pedagogical narratives across multi-shot instructional videos, especially in STEM domains. To address these challenges, we propose EduStory, a unified fram
+===PAPER_224===
+Position: Avoid Overstretching LLMs for every Enterprise Task
+Enterprise workloads are dominated by deterministic, structured, and knowledge-dependent tasks operating under strict cost, latency, and reliability constraints. While these are often addressed through large language model (LLM) deployment or distillation into smaller models, we argue this is ineffi
+===PAPER_225===
+Your Simulation Runs but Solves the Wrong Physics: PDE-Grounded Intent Verification for LLM-Generated Multiphysics Simulation Code
+Execution-based evaluation of LLM-generated code implicitly treats successful execution as a proxy for correctness. In scientific simulation, this proxy is insufficient: a generated input file can run, mesh, and converge while encoding governing equations that differ from the user's intent. We call 
+===PAPER_226===
+SkillMAS: Skill Co-Evolution with LLM-based Multi-Agent System
+Large language model (LLM) agent systems are increasingly expected to improve after deployment, but existing work often decouples two adaptation targets: skill evolution and multi-agent system (MAS) restructuring. This separation can create organization bottlenecks, context pressure, and mis-special
+===PAPER_227===
+Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation
+Recent advances in LLM agents enable systems that autonomously refine workflows, accumulate reusable skills, self-train their underlying models, and maintain persistent memory. However, we show that such self-evolution is often non-monotonic: adapting to new task distributions can progressively degr
+===PAPER_228===
+A Prompt-Aware Structuring Framework for Reliable Reuse of AI-Generated Content in the Agentic Web
+The evolution of Large Language Models (LLMs) and the software agents built on them (AI agents) marks a turning point in the transition from a human-centric Web to an ``Agentic Web'' driven by AI agents. However, for AI-Generated Content (AIGC), which is expected to dominate the Web, there is curren
+===PAPER_229===
+Towards Conversational Medical AI with Eyes, Ears and a Voice
+The practice of medicine relies not only upon skillful dialogue but also on the nuanced exchange and interpretation of rich auditory and visual cues between doctors and patients. Building on the low-latency voice and video processing capabilities of Gemini, we introduce AI co-clinician, a first-of-i
+===PAPER_230===
+Reinforcing Multimodal Reasoning Against Visual Degradation
+Reinforcement Learning has significantly advanced the reasoning capabilities of Multimodal Large Language Models (MLLMs), yet the resulting policies remain brittle against real-world visual degradations such as blur, compression artifacts, and low-resolution scans. Prior robustness techniques from v
+===PAPER_231===
+Emergent Semantic Role Understanding in Language Models
+Understanding how linguistic structure emerges in language models is central to interpreting what these systems learn from data and how much supervision they truly require. In particular, semantic role understanding ("who did what to whom") is a core component of meaning representation, yet it remai
+===PAPER_232===
+Agentic MIP Research: Accelerated Constraint Handler Generation
+Mixed-integer programming (MIP) research is both mathematically sophisticated and engineering-intensive: testing an algorithmic hypothesis within a branch-and-cut solver requires substantial implementation, debugging, tuning, and large-scale benchmarking. We propose an agentic MIP research framework
+===PAPER_233===
+Open Ontologies: Tool-Augmented Ontology Engineering with Stable Matching Alignment
+We present Open Ontologies, an open-source ontology engineering system implemented in Rust that integrates LLM-driven construction with formal OWL reasoning and ontology alignment via the Model Context Protocol. Our primary finding is that stable 1-to-1 matching is the dominant factor in ontology al
+===PAPER_234===
+Sparse Layers are Critical to Scaling Looped Language Models
+Looped language models repeat a set of transformer layers through depth, reducing memory costs and providing natural early-exit points at loop boundaries. However, looped models do not scale as favorably as standard transformers with unique layers. We compare standard and Mixture-of-Experts (MoE) tr
+===PAPER_235===
+A Communication-Theoretic Framework for LLM Agents: Cost-Aware Adaptive Reliability
+Agents built on large language models (LLMs) rely on a range of reliability techniques, including retry, majority voting, and self-consistency, that have been developed in parallel rather than within a common analytical framework. We observe that an LLM sampled at temperature $T$ is a discrete stoch
+===PAPER_236===
+Personalized Alignment Revisited: The Necessity and Sufficiency of User Diversity
+Personalized alignment aims to adapt large language models to heterogeneous user preferences, yet the precise theoretical conditions for its statistical efficiency have not been formally established. This paper characterizes the conditions under which personalized alignment achieves O(1) online regr
+===PAPER_237===
+Relative Kinetic Utility for Reasoning-Aware Structural Pruning in Large Language Models
+Chain-of-Thought (CoT) prompting symbolized a huge improvement of reasoning capabilities of Large Language Models (LLMs). However, scaling up test-time computation yields extensive CoT sequences, introducing severe inference latency and key-value (KV) cache memory bottlenecks. While structural pruni
+===PAPER_238===
+Non-Monotonic Latency in Apple MPS Decoding: KV Cache Interactions and Execution Regimes
+Autoregressive inference is typically assumed to scale predictably with decoding length, and key-value (KV) caching is widely regarded as a universally beneficial optimization for accelerating decoding. In this work, we identify unexpected non-monotonic latency behavior in the Apple MPS backend, whe
+===PAPER_239===
+Machine Learning Research Has Outpaced Its Communication Norms and NeurIPS Should Act
+Machine learning research has grown exponentially while its communication norms have not. We argue NeurIPS should adopt explicit, measurable writing standards. We analyze 2.8 million arXiv papers (1991-2025), 24,772 NeurIPS papers (1987-2024), and 24.5 million PubMed papers (1990-2025), applying cla
+===PAPER_240===
+Ace-Skill: Bootstrapping Multimodal Agents with Prioritized and Clustered Evolution
+Self-evolving agents present a promising path toward continual adaptation by distilling task interactions into reusable knowledge artifacts. In practice, this paradigm remains hindered by two coupled bottlenecks: data inefficiency, where costly rollout effort is disproportionately spent on low-value
+===PAPER_241===
+UserGPT Technical Report
+Personalized user understanding from large-scale digital traces remains a fundamental challenge. Traditional user profiling methods rely on discriminative models and manual feature engineering to predict discrete attributes, often producing fragmented and logically inconsistent profiles that general
+===PAPER_242===
+Communicating Sound Through Natural Language
+Natural language is widely used to describe, prompt, and control audio systems, but rarely serves as the representation carrying audio itself. We introduce lexical acoustic coding (LAC), a framework in which pre-trained LLM sender and receiver agents transmit sound through natural language. Under fi
+===PAPER_243===
+SlimQwen: Exploring the Pruning and Distillation in Large MoE Model Pre-training
+Structured pruning and knowledge distillation (KD) are typical techniques for compressing large language models, but it remains unclear how they should be applied at pretraining scale, especially to recent mixture-of-experts (MoE) models. In this work, we systematically study MoE compression in larg
+===PAPER_244===
+The Extrapolation Cliff in On-Policy Distillation of Near-Deterministic Structured Outputs
+On-policy distillation (OPD) is widely used for LLM post-training. When pushed with a reward-extrapolation coefficient lambda > 1, the student can lift past the teacher in domain, but past a threshold lambda* the same step violates the output contract on structured-output tasks. In a single-position
+===PAPER_245===
+AdaPreLoRA: Adafactor Preconditioned Low-Rank Adaptation
+Low-Rank Adaptation (LoRA) reparameterizes a weight update as a product of two low-rank factors, but the Jacobian $J_{G}$ of the generator mapping the factors to the weight matrix is rank-deficient, so the factor-space preconditioner $J_{G}^* {F}_t J_{G}$ induced by any ${W}$-space preconditioner ${
+===PAPER_246===
+Bias by Necessity: Impossibility Theorems for Sequential Processing with Convergent AI and Human Validation
+Are certain cognitive biases mathematically inevitable consequences of sequential information processing? We prove that primacy effects, anchoring, and order-dependence are architecturally necessary in autoregressive language models due to causal masking constraints. Our three impossibility theorems
+===PAPER_247===
+RewardHarness: Self-Evolving Agentic Post-Training
+Evaluating instruction-guided image edits requires rewards that reflect subtle human preferences, yet current reward models typically depend on large-scale preference annotation and additional model training. This creates a data-efficiency gap: humans can often infer the target evaluation criteria f
+===PAPER_248===
+AAAC: Activation-Aware Adaptive Codebooks for 4-bit LLM Weight Quantization
+Post-training weight-only quantization to 4 bits is widely used to reduce the memory and compute costs of large language model inference. Existing PTQ methods, such as AWQ and GPTQ, improve how weights are mapped onto a fixed 4-bit grid through scaling, clipping, or error compensation. To further im
+===PAPER_249===
+MIND-Skill: Quality-Guaranteed Skill Generation via Multi-Agent Induction and Deduction
+Large language model (LLM) powered AI agents have emerged as a promising paradigm for autonomous problem-solving, yet they continue to struggle with complex, multi-step real-world tasks that demand domain-specific procedural knowledge. Reusable agent skills, which encapsulate successful problem-solv
+===PAPER_250===
+PAAC: Privacy-Aware Agentic Device-Cloud Collaboration
+Large language model (LLM) agents face a structural tension: cloud agents provide strong reasoning but expose user data, while on-device agents preserve privacy at the cost of overall capability. Existing device-cloud designs treat this boundary as a compute split rather than a trust boundary suited
+===PAPER_251===
+Causal Stories from Sensor Traces: Auditing Epistemic Overreach in LLM-Generated Personal Sensing Explanations
+LLMs are increasingly used to explain personal sensing data, translating traces of activity and mood into natural-language accounts of why an anomalous day may have occurred. However, such explanations can sound coherent and personally meaningful even when the underlying evidence is sparse or missin
+===PAPER_252===
+Human-Inspired Memory Architecture for LLM Agents
+Current LLM agents lack principled mechanisms for managing persistent memory across long interaction horizons. We present a biologically-grounded memory architecture comprising six cognitive mechanisms: (1) sleep-phase consolidation, (2) interference-based forgetting, (3) engram maturation, (4) reco
+===PAPER_253===
+ShifaMind: A Multiplicative Concept Bottleneck for Interpretable ICD-10 Coding
+Automated ICD-10 coding from clinical discharge summaries requires models that are both accurate on long-tailed multi-label classification tasks and interpretable to clinicians. Concept Bottleneck Models (CBMs) offer a principled framework for interpretability by routing predictions through human-in
+===PAPER_254===
+LLM-guided Semi-Supervised Approaches for Social Media Crisis Data Classification
+Semi-supervised learning approaches have been investigated as a means to enhance the analysis of social media data in disaster management contexts. In this work, we present the first empirical evaluation of large language model (LLM) guided semi-supervised learning for crisis related tweet classific
+===PAPER_255===
+Queryable LoRA: Instruction-Regularized Routing Over Shared Low-Rank Update Atoms
+We present a data-adaptive method for parameter-efficient fine-tuning of large neural networks. Standard low-rank adaptation methods improve efficiency by restricting each layer update to a fixed low-rank form, but this static parameterization can be too rigid when the appropriate correction depends
+===PAPER_256===
+SecureForge: Finding and Preventing Vulnerabilities in LLM-Generated Code via Prompt Optimization
+LLM coding agents now generate code at an unprecedented scale, yet LLM-generated code introduces cybersecurity vulnerabilities into codebases without human involvement. Even when frontier models are explicitly asked to write secure production code with relevant weaknesses to avoid in context, we fin
+===PAPER_257===
+Reinforcement Learning for Scalable and Trustworthy Intelligent Systems
+Reinforcement learning has become a powerful paradigm for improving the capability of intelligent systems, but its practical deployment faces two central challenges. First, reinforcement learning must scale efficiently in distributed environments where communication bandwidth is limited and computat
+===PAPER_258===
+CDS4RAG: Cyclic Dual-Sequential Hyperparameter Optimization for RAG
+Retrieval-Augmented Generation (RAG) is sensitive to the vast hyperparameters of the retriever and generator, yet optimizing them using given queries is a challenging task due to the complex interactions and expensive evaluation costs. Existing algorithms are ineffective and slow in convergence, sin
+===PAPER_259===
+LLMSYS-HPOBench: Hyperparameter Optimization Benchmark Suite for Real-World LLM Systems
+Large Language Model (LLM) systems have been the frontier of AI in many application domains, leading to new challenges and opportunities for hyperparameter optimization (HPO) for the AutoML community. However, this type of system exhibits an unprecedented compound space of hyperparameter configurati
+===PAPER_260===
+mHC-SSM: Manifold-Constrained Hyper-Connections for State Space Language Models with Stream-Specialized Adapters
+Manifold-Constrained Hyper-Connections (mHC) introduce a stability-motivated variant of multi stream residual mixing by constraining residual stream mixing matrices to the manifold of doubly stochastic matrices via Sinkhorn-Knopp projection. In his work, we study whether mHC-style constrained multi-
+===PAPER_261===
+In-Context Fixation: When Demonstrated Labels Override Semantics in Few-Shot Classification
+While random demonstration labels barely hurt in-context learning (Min et al., 2022), we show that homogeneous labels--even semantically valid ones--collapse accuracy to <=12% across six models (Pythia, Llama, Qwen; 0.8B--8B) and four tasks. The trigger is label-slot content: the model treats tokens
+===PAPER_262===
+HTPO: Towards Exploration-Exploitation Balanced Policy Optimization via Hierarchical Token-level Objective Control
+Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a pivotal technique for enhancing the reasoning capabilities of Large Language Models (LLMs). However, the de facto practice of mainstream RL algorithms is to treat all tokens of one response equally and assign the same optimizatio
+===PAPER_263===
+Spatial Priming Outperforms Semantic Prompting: A Grid-Based Approach to Improving LLM Accuracy on Chart Data Extraction
+The automated extraction of data from scientific charts is a critical task for large-scale literature analysis. While multimodal Large Language Models (LLMs) show promise, their accuracy on non-standardized charts remains a challenge. This raises a key research question: what is the most effective s
+===PAPER_264===
+LLMs with in-context learning for Algorithmic Theoretical Physics
+There is an increasing number of algorithmic computations in theoretical physics. These, while conceptually simple, can nevertheless be time-consuming and contain subtleties that should not be overlooked. Given the recent improvement of Large Language Models (LLM), it is natural to investigate wheth
+===PAPER_265===
+MULTITEXTEDIT: Benchmarking Cross-Lingual Degradation in Text-in-Image Editing
+Text-in-image editing has become a key capability for visual content creation, yet existing benchmarks remain overwhelmingly English-centric and often conflate visual plausibility with semantic correctness. We introduce MULTITEXTEDIT, a controlled benchmark of 3,600 instances spanning 12 typological
+===PAPER_266===
+Feature Rivalry in Sparse Autoencoder Representations: A Mechanistic Study of Uncertainty-Driven Feature Competition in LLMs
+Sparse Autoencoders (SAEs) decompose large language model representations into interpretable features, but how these features interact under uncertainty remains poorly understood. We introduce Feature Rivalry -- negatively correlated SAE feature pairs -- and study whether rivalry serves as a mechani
+===PAPER_267===
+Reasoning emerges from constrained inference manifolds in large language models
+Reasoning in large language models is predominantly evaluated through labeled benchmarks, conflating task performance with the quality of internal inference. Here we study reasoning as an intrinsic dynamical process by examining the evolution of internal representations during inference. We find tha
+===PAPER_268===
+Scaling Mobile Agent Systems: From Capability Density to Collective Intelligence
+Mobile agent systems are emerging as a key paradigm for enabling intelligent applications on edge devices and in AIoT ecosystems. However, their scalability is fundamentally constrained by limited on-device computation and fragmented intelligence across devices. In this work, we propose a unified re
+===PAPER_269===
+Block-Wise Differentiable Sinkhorn Attention: Tail-Refinement Gradients with a Gap-Aware Dustbin Bridge
+We study long-context balanced entropic optimal transport (OT) attention on TPU hardware through a stopped-base, fixed-depth tail-refinement surrogate. After a stopped $T$-step Sinkhorn solve, we unroll a short refinement tail and differentiate that surrogate exactly. For the production $R=2$ case, 
